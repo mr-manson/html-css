@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pictures</title>
+</head>
+
+<body>
+
+    <!-- simple image -->
+    <img src="https://pngicon.ru/file/uploads/html5.png" height="150" alt="HTML logo">
+    <br>
+    <!-- responsive image -->
+    <!--
+    <picture>
+        <source media="(min-width: 1024px)" srcset="https://picsum.photos/600/600">
+        <source media="(min-width: 738px)" srcset="https://picsum.photos/300/300">
+        <source media="(min-width: 360px)" srcset="https://picsum.photos/100/100">
+        <img src="https://picsum.photos/300/300" alt="Just a picture">
+    </picture>
+    -->
+
+    <!-- image with semantic description -->
+    <figure>
+        <img src="https://picsum.photos/300/300" alt="Just a picture">
+        <figcaption>It's a simple description for a picture above</figcaption>
+    </figure>
+
+    <!-- image with semantic description -->
+    <figure>
+        <img src="https://picsum.photos/300/300" alt="Just a picture">
+        <img src="https://picsum.photos/300/300" alt="Just a picture">
+        <img src="https://picsum.photos/300/300" alt="Just a picture">
+        <figcaption>
+            <p>
+                It's a simple description for a couple pictures above.
+                It's a simple description for a couple pictures above.
+                It's a simple description for a couple pictures above.
+            </p>
+        </figcaption>
+    </figure>
+
+    
+
+</body>
+
+</html>
