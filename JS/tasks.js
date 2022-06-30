@@ -290,17 +290,43 @@
 
 // func(arr);
 
-let arr = [1524, 1321, 4563, 7144, 2879];
-let res = [];
+// let arr = [1524, 1321, 4563, 7144, 2879];
+// let res = [];
 
-for (let elem of arr) {
-	if (isPairsDigitsCheckd(elem)) {
-		res.push(elem);
-	}
-}
-console.log(res);
+// for (let elem of arr) {
+// 	if (isPairsDigitsCheckd(elem)) {
+// 		res.push(elem);
+// 	}
+// }
+// console.log(res);
 
-function isPairsDigitsCheckd(num) {
-	let str = String(num);
-	return (Number(str[0]) + Number(str[1])) == (Number(str[2]) + Number(str[3]));
-}
+// function isPairsDigitsCheckd(num) {
+// 	let str = String(num);
+// 	return (Number(str[0]) + Number(str[1])) == (Number(str[2]) + Number(str[3]));
+// }
+// let str = 'str'
+
+// ;(function() {
+// 	alert(1);
+// })();
+
+// let func = (function () {
+// 	let count = 1;
+// 	return function () {
+// 		alert(count);
+// 		if (count < 5) {
+// 			count++;
+// 		} else {
+// 			count = 1;
+// 		}
+
+// 	}
+// })();
+
+// func();
+// func();
+// func();
+// func();
+// func();
+// func();
+// func();
