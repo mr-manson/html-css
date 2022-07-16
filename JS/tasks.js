@@ -322,11 +322,51 @@
 
 // 	}
 // })();
+// func();
+// func();
+// func();
+// func();
+// func();
+// func();
+// func();
 
-// func();
-// func();
-// func();
-// func();
-// func();
-// func();
-// func();
+// 1.0 Number
+// console.log('Infinity', Number.POSITIVE_INFINITY);
+// console.log(isFinite(Number.POSITIVE_INFINITY));
+// console.log('MAX_SAFE_INTEGER', Number.MAX_SAFE_INTEGER);
+// let a = 2 / 'a';
+// console.log(isNaN(a));
+
+// const strFloat = '40.42';
+// console.log(Number(strFloat) + 2);
+
+// console.log(parseFloat((0.4 + 0.2).toFixed(1)));
+// console.log(Number.isInteger(+'5'));
+
+
+// 2.0 BigInt
+// console.log(90071992547409919999999n - 9007199254740991999999n);
+// console.log(-90071992547409919999999n);
+// //console.log(-90071992547409919999999.222n); // error
+// //console.log(10n - 4); // error, only BigInt
+// console.log(10n - BigInt(4));
+// console.log(parseInt(10n) - 4);
+
+// 3.0 Math
+console.log(Math.E);
+console.log(Math.PI);
+console.log(Math.pow(5, 2));
+console.log(Math.sqrt(25));
+console.log(Math.max(5, 2, 10));
+console.log(Math.min(5, 2, 10));
+console.log(Math.floor(4.2)); // округляет в меньшую сторону
+console.log(Math.ceil(4.2)); // округляет в большую сторону
+console.log(Math.round(4.6)); // округляет к ближайшему целому
+console.log(Math.trunc(4.6)); // возвращает целую часть числа
+
+// 3.1 Random Between
+function getRandomBetween (min, max){
+    return Math.round(Math.random() * (max - min) + min);
+}
+
+console.log(getRandomBetween(10, 42));
